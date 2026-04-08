@@ -1,6 +1,4 @@
 node_modules/
 __pycache__/
 .env
-venv/
-build/
-.DS_Store
+*.pycgit
