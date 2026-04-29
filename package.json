@@ -1,5 +1,12 @@
 {
-  "dependencies": {
-    "jspdf": "^4.2.1"
+  "name": "scanlitee",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "frontend:start": "npm --prefix frontend start",
+    "frontend:build": "npm --prefix frontend run build",
+    "docker:build": "docker build -t scanlitee .",
+    "docker:compose:up": "docker compose up --build",
+    "docker:compose:down": "docker compose down"
   }
 }
